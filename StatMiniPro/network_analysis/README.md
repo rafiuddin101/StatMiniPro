@@ -1,6 +1,6 @@
 # Network Analysis without external libraries
 
-This project provides a minimal implementation of network analysis using pure Python. We construct a simple undirected network represented by an adjacency list and compute basic metrics such as degree distribution and breadth-first search (BFS) centrality. Statistical network analysis has become an important area of research because network data differs fundamentally from traditional data, necessitating new statistical methods【640473791433524†L4-L24】.
+This project provides a minimal implementation of network analysis using pure Python. We construct a simple undirected network represented by an adjacency list and compute basic metrics such as degree distribution and breadth-first search (BFS) centrality. Statistical network analysis has become an important area of research because network data differs fundamentally from traditional data, necessitating new statistical methods.
 
 ## Methodology
 1. Represent the network as a dictionary of node: neighbors.
