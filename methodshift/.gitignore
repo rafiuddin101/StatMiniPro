@@ -1,0 +1,22 @@
+# Environments
+.venv/
+.env
+__pycache__/
+.ipynb_checkpoints/
+
+# Data artifacts
+/data/raw/
+/data/interim/
+/data/processed/
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Logs
+logs/
+
+# Jupyter
+notebooks/.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/

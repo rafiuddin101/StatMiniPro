@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "methodshift"
+version = "0.1.0"
+description = "Meta-research pipeline for tracking statistical method diffusion"
+authors = [{ name = "MethodShift Contributors" }]
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+    "pandas>=2.1",
+    "numpy>=1.24",
+    "httpx>=0.25",
+    "orjson>=3.9",
+    "pyarrow>=14.0",
+    "python-dotenv>=1.0",
+    "rapidfuzz>=3.5",
+    "pyyaml>=6.0",
+    "matplotlib>=3.8",
+    "statsmodels>=0.14",
+    "scikit-learn>=1.3",
+    "ruptures>=1.1",
+]
+
+[project.optional-dependencies]
+full = [
+    "pymc>=5.10",
+    "bambi>=0.13",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra"
+testpaths = ["tests"]
+
+[tool.coverage.run]
+source = ["methodshift"]
+

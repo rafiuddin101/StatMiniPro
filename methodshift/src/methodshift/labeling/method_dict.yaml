@@ -1,0 +1,30 @@
+logistic regression:
+  - "logistic regression"
+  - "logit model"
+mixed models:
+  - "mixed effects"
+  - "linear mixed model"
+  - "random intercept"
+bayesian inference:
+  - "bayesian"
+  - "posterior distribution"
+  - "mcmc"
+survival analysis:
+  - "cox model"
+  - "hazard ratio"
+  - "survival analysis"
+time series:
+  - "arima"
+  - "state space"
+random forest:
+  - "random forest"
+  - "breiman"
+xgboost:
+  - "xgboost"
+causal inference:
+  - "propensity score"
+  - "inverse probability weighting"
+  - "average treatment effect"
+bootstrap:
+  - "bootstrap"
+  - "resampling"
